@@ -1,0 +1,73 @@
+#header{
+    float: right;
+}
+
+#container{
+    margin: auto;
+    padding: 300px;
+    padding-top: 150px;
+    text-align: center ;
+    width: 549px;
+    height: 262px;
+    margin-bottom: 150px;
+}
+
+#logo{
+    text-align: center;
+    content: url(img/google.png);
+    margin: auto;
+}
+
+form{
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+    background-color: #e7e7e7;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.right-links{
+    float: right;
+    margin-right: 2%;
+}
+
+ul{
+    
+    float: left;
+}
+
+li{
+    display: inline;
+}
+
+body{
+    
+}
+
+input[type="text"]{
+    width: 548px;
+    height: 48px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+input[type="text"]:hover{
+    border-color: #aaa;
+}
+
+input[type="submit"]{
+    border: solid 1px #ccc;
+}
+
+a{
+    color: dodgerblue;
+}
+
+a:visited{
+    color: dodgerblue;
+}
