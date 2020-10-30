@@ -1,54 +1,48 @@
-#header{
+#header {
     float: right;
 }
 
-#container{
+#container {
     margin: auto;
     padding: 300px;
     padding-top: 150px;
-    text-align: center ;
+    text-align: center;
     width: 549px;
     height: 262px;
     margin-bottom: 150px;
 }
 
-#logo{
+#logo {
     text-align: center;
     content: url(img/google.png);
     margin: auto;
 }
 
-form{
+form {
     margin: auto;
     text-align: center;
 }
 
-footer{
+footer {
     background-color: #e7e7e7;
     position: absolute;
     width: 100%;
-    
 }
 
-.right-links{
+.right-links {
     float: right;
     margin-right: 2%;
 }
 
-ul{
-    
+ul {
     float: left;
 }
 
-li{
+li {
     display: inline;
 }
 
-body{
-    
-}
-
-input[type="text"]{
+input[type="text"] {
     width: 548px;
     height: 48px;
     margin-bottom: 10px;
@@ -56,18 +50,33 @@ input[type="text"]{
     text-align: justify;
 }
 
-input[type="text"]:hover{
+input[type="text"]:hover {
     border-color: #aaa;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     border: solid 1px #ccc;
+    margin: 10px;
 }
 
-a{
+a {
     color: dodgerblue;
 }
 
-a:visited{
+a:visited {
     color: dodgerblue;
+}
+
+small {
+    display: block;
+}
+
+nav[id="header"] li a {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
 }
